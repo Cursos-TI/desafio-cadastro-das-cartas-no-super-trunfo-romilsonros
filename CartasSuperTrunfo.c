@@ -29,10 +29,10 @@ int main() {
     scanf(" %c",&estado);
           
     printf("Digite o Código da Carta: \n");
-    scanf(" %s",codigo_da_carta);
+    scanf("%s",codigo_da_carta);
 
     printf("Digite a Cidade: \n");
-    scanf(" %s", cidade);
+    scanf("%s", cidade);
 
     printf("Digite a População: \n");
     scanf(" %lu",&populacao);
@@ -76,10 +76,10 @@ int main() {
 
 
     //Calculando a Densidade Populacional
-    densidadepopulacional=(populacao/area);
-    densidadepopulacional_2=(populacao_2/area_2);
-    pippercapita=(pib * 1000000000.0)/populacao);
-    pippercapita_2=(pib_2 * 1000000000.0)/populacao_2);
+    densidadepopulacional=(float)populacao/area;
+    densidadepopulacional_2=(float)populacao_2/area_2;
+    pippercapita=(pib * 1000000000.0)/populacao;
+    pippercapita_2=(pib_2 * 1000000000.0)/populacao_2;
 
     printf("\n\n");
 
